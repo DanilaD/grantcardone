@@ -1,0 +1,123 @@
+body {
+    font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+    /*padding: 0 5px;*/
+}
+
+.timer {
+    width: 300px;
+    margin: 0 auto !important;
+    padding: 20px;
+}
+
+.circle {
+    background: yellow;
+    border-radius: 80px;
+    color: black;
+    height: 80px;
+    font-weight: bold;
+    font-size: 26px;
+    width: 80px;
+    display: table;
+    /*margin: 20px auto;*/
+}
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+    padding: 50px 10px 80px 10px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.text-blue {
+    color: rgb(0, 68, 130);
+}
+
+.container2 {
+    width: 100%;
+    background-image: url("../Assets/wcf-typ-playbook-bgfade.jpeg");
+    background-repeat: no-repeat;
+}
+
+.centered2 {
+    max-width: 950px;
+    margin: 0 auto !important;
+    float: none !important;
+    text-align: center;
+}
+
+.main {
+    max-width: 950px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.menu {
+    padding: 5px;
+    max-width: 950px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.menu_img {
+    max-width: 150px;
+    height: auto;
+}
+
+.menu_text {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(71, 71, 71);
+    text-transform: uppercase;
+}
+
+.main_text {
+    text-align: center;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.main_video {
+    max-width: 700px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.main_video_text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../Assets/background-hero.jpg");
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
